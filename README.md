@@ -1,7 +1,7 @@
-En este repositorio voy a ir montando los ejercicios ejecutados durante el diplomado de Programación.
+# Diplomado de Programación
 
-El mismo constará de carpetas por cada lenguaje de programación estudiado y los proyectos raelizados en cada uno de ellos.
+En este repositorio se encuentran los ejercicios realizados durante el diplomado de Programación. Cada carpeta corresponde a un lenguaje de programación estudiado y contiene los proyectos desarrollados en dicho lenguaje.
 
-Luego iré mejorando el diseño y la información de la página de inicio de cada uno de los repositorios.
+El diseño y la información de la página de inicio de cada repositorio se mejorarán progresivamente.
 
-Como leí en algún lado, lo importante es comenzar, luego se va mejorando.
+Como se dice, lo importante es comenzar; las mejoras vendrán con el tiempo.
