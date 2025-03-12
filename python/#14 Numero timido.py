@@ -2,7 +2,7 @@
 un entero positivo n , devuelve el n-ésimo número “tímido”. Por ejemplo,
 dado 1, deberías devolver 19. Dado 2, deberías devolver 28."""
 
-numero = int(input("Por favor ingrese un número entero positivo: "))
+numero = int(input("Por favor ingrese un número entero positivo del 1 al 9: "))
 
 for n in range(1, 10):
     timido = numero + n
