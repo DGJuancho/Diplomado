@@ -13,7 +13,7 @@ public class OperadoresLogicos {
         System.out.println("True | False es: " + (true | false));
         System.out.println("False | True es: " + (false | true));
         System.out.println("True | True es: " + (true | true));
-// El operador or (||) de circuito corto evalúa el primer operando, si este es true, la ioeración es true, no continua evaluando, de esta manera es más eficiente
+// El operador or (||) de circuito corto evalúa el primer operando, si este es true, la operación es true, no continua evaluando, de esta manera es más eficiente
 
 //Operador xor (^) es true, sólo si uno de los operandos es true
         System.out.println("False ^ False es: " + (false ^ false));
