@@ -47,6 +47,7 @@ build/
 .vscode/
 .settings/
 workspace.xml
+*.iml
 
 # Archivos de prueba y cobertura
 coverage/
