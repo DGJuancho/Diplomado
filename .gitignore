@@ -1,5 +1,60 @@
-Java Essential Training/
-Proyectos/
-out/
+# Archivos generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Configuración de entorno y credenciales
+.env
+
+# Archivos de logs generales y de JVM
+*.log
+hs_err_pid*
+replay_pid*
+
+# Cachés y archivos temporales
+.cache/
+tmp/
+*.tmp
+*.bak
+*.swp
+
+# Dependencias y paquetes (Python, Node.js, PHP)
+node_modules/
+vendor/
+
+# Archivos de compilación y binarios (Java, Python)
+*.class
+*.jar
+*.out
+*.o
+*.obj
+*.exe
+*.dll
+
+# Cachés y archivos generados por Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Dependencias instaladas en Python
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# Configuración y metadatos de IntelliJ IDEA y VS Code
 .idea/
 .vscode/
+.settings/
+workspace.xml
+
+# Archivos de prueba y cobertura
+coverage/
+*.spec.js
+*.test.js
+
+# Archivos específicos de bases de datos SQL y desarrollo web
+*.sql
+*.sqlite
+*.db
+.sass-cache
