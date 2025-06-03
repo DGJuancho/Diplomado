@@ -1,3 +1,4 @@
+import java.math.BigDecimal;
 import java.util.Scanner;
 
 /*
@@ -18,5 +19,16 @@ public class Conversor {
         double dolares = 1.09 * euros;
 
         System.out.println(euros + " Euros equivalen a: " + dolares + " $");
+
+        String eurosString = Double.toString(euros);
+        BigDecimal eurosBigDecimal = new BigDecimal(eurosString);
+        double tasaDeCambio = 1.09;
+        String tasaDeCambioString = Double.toString(tasaDeCambio);
+        BigDecimal tasaDeCambioBigDecimal = new BigDecimal(tasaDeCambioString);
+
+        BigDecimal dolaresBigDecimal = eurosBigDecimal.multiply(tasaDeCambioBigDecimal);
+
+        System.out.println(euros + " euros equivalen a: " + dolaresBigDecimal.toString() + " $");
+
     }
 }
