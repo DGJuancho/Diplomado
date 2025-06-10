@@ -5,13 +5,18 @@ Aquí encontrarás un reflejo de mi aprendizaje en distintos lenguajes de progra
 
 ## 📁 Estructura del Repositorio
 
-- Cada carpeta corresponde a un **lenguaje de programación** estudiado en el diplomado.
-- Dentro de cada carpeta encontrarás **ejemplos y ejercicios prácticos**, organizados según el módulo en el que fueron trabajados.
-- 📌 **Cajero Automático**: Este es un miniproyecto desarrollado durante el módulo de **Java**, donde puse en práctica conceptos clave simulando el funcionamiento de un cajero automático.
+Cada carpeta corresponde a un lenguaje de programación estudiado en el diplomado y contiene:
+- Conceptos y fundamentos: Material teórico y explicaciones clave.
+- Ejercicios: Práctica aplicada para reforzar el conocimiento.
+- Proyectos: Desarrollo de aplicaciones con los conceptos aprendidos.
+- Notas y recursos: Documentación y materiales complementarios.
+
+## 📌 Proyectos
+Acá se verán los proyectos desarrollados durante el diplomado, en ellos aplico los diferentes conceptos fundamentales para consolidar mis habilidades. A medida que avance, seguiré agregando nuevos proyectos y mejoras.
 
 ## 🚀 Evolución y Mejoras
 
-Este repositorio es parte de mi crecimiento como programador. A medida que avanzo en el diplomado, seguiré mejorando su estructura y agregando nuevos proyectos.
+Este repositorio es parte de mi crecimiento como programador. La estructura y los contenidos evolucionarán conforme avance en mi aprendizaje.
 
 ✨ _"Lo importante es comenzar; las mejoras vendrán con el tiempo."_
 
