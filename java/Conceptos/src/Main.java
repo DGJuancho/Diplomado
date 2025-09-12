@@ -5,13 +5,10 @@ public class Main {
         cuentaDeJuan.tipoDeCuenta = "nómina";
         cuentaDeJuan.saldo = 23500;
 
-        cuentaDeJuan.sacarDinero(500);
-        System.out.println("Ahora la cuenta de Juan tiene " + cuentaDeJuan.saldo);
+        double saldo = cuentaDeJuan.obtenerSaldo();
+        System.out.println("El saldo de la cuenta de Juan es: " + saldo);
 
-        cuentaDeJuan.ingresarDinero(1000);
-        System.out.println("Ahora,al ingresar dinero,  la cuenta de Juan tiene " + cuentaDeJuan.saldo);
-
-        cuentaDeJuan.cambiarTipoDeCuenta("ahorro");
-        System.out.println("la cuenta de Juan ahora es: " + cuentaDeJuan.tipoDeCuenta);
+        cuentaDeJuan.sacarDinero( -1000);
+        System.out.println("El saldo de la cuenta de Juan es: " + saldo);
     }
 }
