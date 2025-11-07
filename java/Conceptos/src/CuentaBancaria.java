@@ -7,7 +7,7 @@ public class CuentaBancaria {
 
     CuentaBancaria(String t, TipoDeCuenta tipo, double s){
     titular = t;
-    tipoDeCuenta = TipoDeCuenta;
+    tipoDeCuenta = tipo;
     saldo = s;
     }
 
@@ -42,6 +42,8 @@ public class CuentaBancaria {
             case AHORRO:
                 return COMISION;
             case NOMINA:
+                return 0;
+            default:
                 return 0;
         }
     }
