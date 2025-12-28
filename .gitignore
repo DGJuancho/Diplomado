@@ -30,6 +30,9 @@ vendor/
 *.exe
 *.dll
 
+# ░░ Entorno virtual de Python
+.venv/
+
 # Cachés y archivos generados por Python
 __pycache__/
 *.pyc
