@@ -1,0 +1,108 @@
+# ==============================================================================
+# ░░ SISTEMA OPERATIVO Y ARCHIVOS GENERALES
+# ==============================================================================
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+desktop.ini
+.fuse_hidden*
+*.sock
+
+# ░░ Archivos comprimidos y temporales
+*.zip
+*.tar.gz
+*.bak
+*.tmp
+.cache/
+tmp/
+*.swp
+
+# ==============================================================================
+# ░░ CONFIGURACIÓN DE ENTORNOS DE DESARROLLO (IDE/EDITORES)
+# ==============================================================================
+.idea/
+.vscode/
+.settings/
+*.iml
+workspace.xml
+.project
+.classpath
+
+# ==============================================================================
+# ░░ SEGURIDAD, ENTORNO Y CREDENCIALES (NUNCA SUBIR)
+# ==============================================================================
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.cert
+.credentials
+
+# ==============================================================================
+# ░░ BASES DE DATOS Y DESARROLLO WEB (MySQL, PostgreSQL, etc.)
+# ==============================================================================
+# Archivos de datos y volcados
+*.sql
+*.sqlite
+*.db
+*.dump
+*.sql.gz
+
+# Herramientas de gestión (DBeaver / SASS)
+.dbeaver/
+dbeaver-debug.log
+.sass-cache/
+
+# ==============================================================================
+# ░░ LENGUAJES DE PROGRAMACIÓN Y DEPENDENCIAS
+# ==============================================================================
+
+# 🐍 PYTHON
+.venv/
+env/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.python-version
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# 🐘 PHP
+vendor/
+.phpunit.result.cache
+.phpcs-cache
+.php_cs.cache
+
+# 📦 NODE.JS / JAVASCRIPT
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.eslintcache
+
+# ☕ JAVA / BINARIOS
+*.class
+*.jar
+*.war
+*.ear
+*.out
+*.o
+*.obj
+*.exe
+*.dll
+
+# ==============================================================================
+# ░░ PRUEBAS Y COBERTURA
+# ==============================================================================
+coverage/
+*.spec.js
+*.test.js
+.nyc_output/
